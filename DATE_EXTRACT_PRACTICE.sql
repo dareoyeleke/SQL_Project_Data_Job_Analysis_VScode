@@ -10,7 +10,7 @@ WHERE job_posted_date > '2023-06-01'
 GROUP BY salary_year_avg, salary_hour_avg,job_schedule_type
 ORDER BY job_schedule_type;
 
---this is to find unique count of job postings for each month in 2023, group by and order by month
+--this is to find unique count of job postings for each month in 2023, group by and order by month using the EXTRACT function
 SELECT 
     COUNT(DISTINCT(job_id)) AS no_of_jobs, EXTRACT(MONTH FROM job_posted_date)  AS month_of_year
 FROM job_postings_fact
@@ -20,7 +20,7 @@ ORDER BY EXTRACT(MONTH FROM job_posted_date);
 
 
 
---this is to find companies that posted jobs offering health insurance, where postings were made in the second quater of 2023. 
+--this is to find companies that posted jobs offering health insurance, where postings were made in the second quater of 2023, by joining two tables to get all the required information
 SELECT 
     c.name,j.job_health_insurance, j.job_posted_date
 FROM
