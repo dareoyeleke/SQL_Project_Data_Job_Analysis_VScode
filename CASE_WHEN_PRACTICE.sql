@@ -1,3 +1,4 @@
+-- query to organize jobs by salary as LOW,MEDIUM AND HIGH using different CASE WHEN statements 
 SELECT * 
 FROM 
     job_postings_fact
