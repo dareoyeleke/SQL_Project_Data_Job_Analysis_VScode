@@ -243,3 +243,21 @@ can be rewarded with good pay.
 Especially in a world reliant on technology,therefore data, with SQL and the skills highlighted in this project,
 I realize I'm working towards something that will pay off as I put more effort and specialize in my specific career path
 ```
+⚙️ How to Reproduce
+### Requirements
+
+-  PostgreSQL
+
+-  VSCode (optional)
+
+-  psql or a SQL GUI client
+
+### Steps
+
+-  Clone this repository
+
+-  Load the dataset into PostgreSQL
+
+-  Run the SQL files in the /sql folder
+
+-  Explore queries and modify filters for deeper analysis
