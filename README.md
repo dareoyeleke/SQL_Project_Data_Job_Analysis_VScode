@@ -16,6 +16,13 @@ Using SQL for data extraction and transformation and Power BI for interactive re
 
 Using SQL for data extraction and transformation and Power BI for interactive reporting, the project demonstrates how analytics teams can support hiring strategy, workforce planning, and market benchmarking without overengineering or black-box modeling.
 
+## 📂 Data Source
+
+Hugging Face - Account Creation Required
+
+🔗 https://huggingface.co/datasets/lukebarousse/data_jobs/blob/main/data_jobs.csv
+
+
 **Business Questions**
 
 This analysis was designed to answer practical, stakeholder-relevant questions such as:
