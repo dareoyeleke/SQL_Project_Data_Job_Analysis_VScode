@@ -12,7 +12,7 @@ This project delivers an end-to-end labor market analysis of the data jobs ecosy
 The analysis focuses on compensation trends, role distribution, skill demand, and geographic concentration,
 transforming raw job data into decision-ready workforce insights.
 ```
-Check it the raw code here (sql_basics_project.ipynb) 
+Check it the raw code here (https://github.com/dareoyeleke/labor-market-analytics-data-jobs/blob/main/sql_basics_project.ipynb)
 
 Using SQL for data extraction and transformation and Power BI for interactive reporting, the project demonstrates how analytics teams can support hiring strategy, workforce planning, and market benchmarking without overengineering or black-box modeling.
 
