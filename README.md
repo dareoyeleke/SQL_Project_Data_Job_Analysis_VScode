@@ -18,7 +18,7 @@ Using SQL for data extraction and transformation and Power BI for interactive re
 
 ## 📂 Data Source
 
-Hugging Face - Account Creation Required
+Hugging Face - Account Creation Required, Dataset Constantly chnaging due to increase in Job Postings 
 
 🔗 https://huggingface.co/datasets/lukebarousse/data_jobs/blob/main/data_jobs.csv
 
