@@ -143,7 +143,7 @@ This analysis was designed to answer practical, stakeholder-relevant questions s
 
 -  Access Link [https://lukeb.co/sql_jobs_db]
 
--  SQL notebook (https://github.com/dareoyeleke/labor-market-analytics-data-jobs/blob/main/sql_basics_project.ipynb) for queries used
+-  Jupyter Notebook for SQL notebook (https://github.com/dareoyeleke/labor-market-analytics-data-jobs/blob/main/sql_basics_project.ipynb) for queries used
 
 -  VSCode (optional)
 
