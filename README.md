@@ -4,6 +4,7 @@
 
 A 497,000+ job posting-level analysis of trends in compensation, skill demand, and geographic distribution, using SQL for data extraction and Power BI for reporting.
 
+
 <br><br>
 
 Using SQL for data extraction and transformation and Power BI for interactive reporting, the project demonstrates how analytics teams can support hiring strategy, workforce planning, and market benchmarking without overengineering or black-box modeling.
@@ -166,6 +167,10 @@ This analysis was designed to answer practical, stakeholder-relevant questions s
 
 -  **Top Paying roles:** The top paying roles are all Senior level roles with 4/5 roles being Data Scientist roles, with the exception in 4th place as a Data Engineering manager role. The salaries were ($475, $640, $850, $870 and $920) thousand in USD
 
+  -  <img width="1920" height="1042" alt="JOB TITLE, ROLE, COMPANY, SALARY (TOP 10)" src="https://github.com/user-attachments/assets/84f425e4-5b9d-4ad8-89bc-d36ba30f3be7" />
+<br><br>
+    
+
 -  **Compensation is role-stratified:** Specialized and senior data roles consistently command higher pay.
 
 -  **Geography matters:** High-paying roles cluster in specific metro areas, though remote roles partially reduce geographic constraints.
@@ -176,8 +181,9 @@ This analysis was designed to answer practical, stakeholder-relevant questions s
 
 -  **Skill Distribution in regards to compenstion:** Certain Niche or low supply skills have higher compensation.
 
--  **The top and bottom 5 most profitable skills per job posting and their compensation on Average are** 
-<img width="287" height="224" alt="Top and Bottom 5 Average Salaries Per skill Count" src="https://github.com/user-attachments/assets/d215fc66-f15c-4a1b-b905-6f7c7d13faf2" />
+-  **The top and bottom 5 most profitable skills per job posting for remote and non remote jobs respectivelly and their compensation on Average are** 
+
+<img width="182" height="230" alt="Top and bottom 5 Average Salary per Skill" src="https://github.com/user-attachments/assets/1c79e8e8-d488-4038-92a2-4294bea75d88" />
 
 <br><br>
 
@@ -193,7 +199,9 @@ This analysis was designed to answer practical, stakeholder-relevant questions s
 ## Recommendations (NOTE - These claims are hypotheses influenced by industry context as opposed to data driven conclusions)
 <br>
 
--  Companies should consider more hybrid positions for Data facing roles at the very least or cater more job postings to be remote to potentially reduce employee stress and churn over time. With the onset of COVID, remote jobs sky rocketed especially for computer based roles such as most Data Jobs. However the visual [DEGREE, REMOTE AND JOB TYPES.PNG] found in [POWER_BI/DAX & QUERY VISUALS] on the main repo page at this link 🔗 [https://github.com/dareoyeleke/labor-market-analytics-data-jobs/blob/main/POWER_BI/DAX%20%26%20QUERY%20VISUALS%20/SALARY%20VS%20SKILL%20COUNT.png], shows a 13% demand of job postings are remote. While not included as part of this study, one can assume a higher preference of remote jobs for Data roles for the genera population. 
+-  Companies should consider more hybrid positions for Data facing roles at the very least or cater more job postings to be remote to potentially reduce employee stress and churn over time. With the onset of COVID, remote jobs sky rocketed especially for computer based roles such as most Data Jobs. However the visual [DEGREE, REMOTE AND JOB TYPES.PNG] found in [POWER_BI/DAX & QUERY VISUALS] on the main repo page at this link 🔗 [https://github.com/dareoyeleke/labor-market-analytics-data-jobs/blob/main/POWER_BI/DAX%20%26%20QUERY%20VISUALS%20/SALARY%20VS%20SKILL%20COUNT.png], shows a 13% demand of job postings are remote. While not included as part of this study, one can assume a higher preference of remote jobs for Data roles for the genera population.
+
+  -   
   
 -  Fostering career growth and matching compensation. Companies should endeavor to match the skill and experience level of Senior level roles with more compensation, as shown in the visual [POWER_BI/DAX & QUERY VISUALS/JOB TITLE, ROLE, COMPANY, SALARY (TOP 10).PNG] at this link 🔗 [https://github.com/dareoyeleke/labor-market-analytics-data-jobs/blob/main/POWER_BI/DAX%20%26%20QUERY%20VISUALS%20/JOB%20TITLE%2C%20ROLE%2C%20COMPANY%2C%20SALARY%20(TOP%2010).PNG] -  Context implies Senior positions are more experienced or skilled, and require more skill than the non-senior positions, the compensation doesn't match the demand.  For difference in job posting according to seniority, the differences are as such Data Analyst(97,519 at 86%), Data Scientists(75,933 at 77%) and Data Engineers(98,386 at 76%). With Median difference in compensation as such Data Analyst ($20,000 at 19%), Data Scientists($30,743 at 20%) and Data Engineers ($12,280 at 9%). There is a huge difference in postings between Senior positions and compensation, with 76% - 86% difference in position according to seniority, with 9% - 20% median difference in compensation.
 
